@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agenda de Contactos</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="contenedor-barra">
+        <div class="contenedor barra">
+             <a href="index.html" class="btn volver">Volver</a>
+             <h1>Editar Contacto</h1>
+        </div>
+   </div>
+
+   <div class="bg-amarillo contenedor sombra">
+    <form id="contacto" action="#">
+        <legend>Añada un contacto <span>Todos los campos son obligatorios</span> </legend>
+            <div class="campos">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" placeholder="Nombre Contacto" id="nombre" value="Jared Urbina">
+                </div>
+                <div class="campo">
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" placeholder="Nombre Empresa" id="empresa" value="Urbina Front-End">
+                </div>
+                <div class="campo">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" placeholder="Teléfono Contacto" id="telefono" value="86974870">
+                </div>
+            </div>
+        <div class="campo enviar">
+            <input type="hidden" id="accion">
+            <input type="hidden" id="id">
+            <input type="submit" value="Guardar">
+        </div>
+    </form>
+</div>
+
+    <footer>
+        <div class="contenedor-barra">
+            <p class="copy">Todos los derechos reservados © Jared Urbina Freelancer</p>
+        </div>
+    </footer>
+
+</body>
+</html>
